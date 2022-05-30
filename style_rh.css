@@ -133,20 +133,34 @@ color: #5F4747;
     letter-spacing: normal;
     text-transform: none;
     color: #5F4747;
+}
 
+.font__five{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 .vold__list{
+    display: flex;
+    flex-direction: row;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-family: Muli, Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 25px;
+    justify-content: space-between;
+    
 }
 .vold__list-header{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
     font-weight: 600;
+}
+.vold__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+
 }

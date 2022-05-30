@@ -11,8 +11,8 @@ body {
   width: 84px;
   box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
 }
-
-div {
+ 
+section {
   display: block;
 }
 .urgent__btn {
@@ -29,26 +29,27 @@ color: #000000;
 }
 
 .--leave{
-  background-color: #896B6B;
-  width: 84px;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-  padding: 8px;
+    background-color: #896B6B;
+    width: 84px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+    padding: 8px;
 }
 
 .--call{
-  background-color: #C08889;
-  width: 84px;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-  padding: 8px;
+    background-color: #C08889;
+    width: 84px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+    padding: 8px;
 
 }
 
 .--clear{
-     background-color: #5F4747;
-     width: 84px;
-     box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-     padding: 8px;
+       background-color: #5F4747;
+       width: 84px;
+       box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+       padding: 8px;
 }
+
 
 header {
   background-color: #CDA9AB;
