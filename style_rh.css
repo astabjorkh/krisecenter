@@ -1,0 +1,125 @@
+.body{
+  line-height: 1.5rem;
+}
+.urgent {
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    background: #896B6B;
+    width: 84px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+  }
+  
+div {
+    display: block;
+  }
+  .urgent__btn {
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+}
+.urgent__btn:link {
+color: green;
+}
+
+  .--leave{
+      
+      background: #896B6B;
+      width: 84px;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+  }
+
+  .--call{
+
+  }
+
+ .--clear{
+
+ }
+
+
+
+.info {
+    box-sizing: border-box;
+    padding: 100px;
+  }
+
+  header {
+    background-color: #CDA9AB;
+    display: -ms-grid;
+    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 2em;
+  }
+  
+  header img {
+    width: 140px;
+    height: 100px;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    margin-left: 1em;
+    margin-right: 10em;
+  }
+  
+  header p {
+    color: white;
+    margin-top: 5em;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+
+.font__one{
+font-family: Muli, Helvetica, Arial, sans-serif;
+font-weight: 600;
+font-size: 35px;
+line-height: 2.25rem;
+letter-spacing: normal;
+text-transform: none;
+color: #5F4747;
+}
+
+.font__two{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+    
+}
+
+.font__three{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+}
+
+.font__four{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+
+}
