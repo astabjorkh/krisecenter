@@ -1,0 +1,41 @@
+.font__one{
+font-family: Muli, Helvetica, Arial, sans-serif;
+font-weight: 600;
+font-size: 35px;
+line-height: 2.25rem;
+letter-spacing: normal;
+text-transform: none;
+color: #5F4747;
+}
+
+.font__two{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+    
+}
+
+.font__three{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+}
+
+.font__four{
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.25rem;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #5F4747;
+
+}
