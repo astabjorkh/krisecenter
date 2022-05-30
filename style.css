@@ -3,6 +3,19 @@ body {
   margin: 0%;
 }
 
+.urgent {
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  background: var(--secondary);
+  width: 84px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+}
+
+div {
+  display: block;
+}
+
 header {
   background-color: #CDA9AB;
   display: -ms-grid;
