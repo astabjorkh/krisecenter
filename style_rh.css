@@ -135,3 +135,18 @@ color: #5F4747;
     color: #5F4747;
 
 }
+
+.vold__list{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.vold__list-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
