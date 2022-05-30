@@ -14,7 +14,7 @@ header{
 
   
     img{
-        width: 140px;
+        width: 100px;
         height: 100px;
         grid-column: 1;
         grid-row: 1;
@@ -31,26 +31,27 @@ header{
     }
 
 }
-
-section{
+h2{
+    
     font-size: 25px;
     text-align: center;
     color: #9C7676;
-}
 
+}
 main{
 
     display: grid;
     grid-template-columns: 1fr 2fr ;
     grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
-    gap: 5em;
+    
 
 
     img{
-        width: 40em;
-        height: 40em;
+        width: 30em;
+        height: 30em;
         grid-column: 2;
         grid-row: 2;
+        margin-left: 8em;
     }
 
     h3{
@@ -58,8 +59,7 @@ main{
         grid-row: 1;
         font-size: 15px;
         color: #BA9B9D;
-        text-align: center;
-        margin-right: 5em;
+        padding-right: 5em;
        
     }
 
@@ -67,6 +67,7 @@ main{
     p{
         margin-left: 5em;
         text-decoration: underline;
+        font-size: 12px;
         
     }
 
@@ -156,5 +157,35 @@ main{
 
 }
 
+
+section{
+
+    
+    padding-left: 5em;
+    padding-top: 2em;
+   
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   p{
+       font-size: 15px;
+       color: #AF7D7E;
+       border-style: solid;
+       height: 2em;
+       width: 35em;
+       text-align: center;
+       
+   }
+
+   img{
+       width: 25em;
+       height: 30em;
+       
+   }
+   
+    
+}
 
 

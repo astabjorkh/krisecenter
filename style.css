@@ -3,19 +3,6 @@ body {
   margin: 0%;
 }
 
-.urgent {
-  position: fixed;
-  left: 0;
-  z-index: 1;
-  background: var(--secondary);
-  width: 84px;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-}
-
-div {
-  display: block;
-}
-
 header {
   background-color: #CDA9AB;
   display: -ms-grid;
@@ -34,7 +21,7 @@ header {
 }
 
 header img {
-  width: 140px;
+  width: 100px;
   height: 100px;
   -ms-grid-column: 1;
   grid-column: 1;
@@ -51,7 +38,7 @@ header p {
   text-decoration: underline;
 }
 
-section {
+h2 {
   font-size: 25px;
   text-align: center;
   color: #9C7676;
@@ -63,16 +50,16 @@ main {
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
   grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 5em;
 }
 
 main img {
-  width: 40em;
-  height: 40em;
+  width: 30em;
+  height: 30em;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 2;
   grid-row: 2;
+  margin-left: 8em;
 }
 
 main h3 {
@@ -82,13 +69,13 @@ main h3 {
   grid-row: 1;
   font-size: 15px;
   color: #BA9B9D;
-  text-align: center;
-  margin-right: 5em;
+  padding-right: 5em;
 }
 
 main p {
   margin-left: 5em;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 main .p1 {
@@ -196,5 +183,37 @@ main .p12 {
   -ms-grid-row: 2;
   grid-row: 2;
   padding-top: 33em;
+}
+
+section {
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section p {
+  font-size: 15px;
+  color: #AF7D7E;
+  border-style: solid;
+  height: 2em;
+  width: 35em;
+  text-align: center;
+}
+
+section img {
+  width: 25em;
+  height: 30em;
 }
 /*# sourceMappingURL=style.css.map */
