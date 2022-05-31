@@ -9,6 +9,10 @@ body{
   font-family: Sans-serif;
 }
 
+a:visited {
+    color: #000000;
+  }
+
 .menu{
     font-weight: 300;
     font-size: 18px;
@@ -99,7 +103,14 @@ color: #000000;
          padding: 8px;
  }
 
-
+.btn__back{
+    color: #ffffff;
+    background-color: #5F4747;
+    padding: 10px;
+    margin: 10px;
+    border:#5F4747;
+    
+}
 
 .info {
     box-sizing: border-box;
@@ -262,6 +273,7 @@ color: #000000;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
+    color: #5F4747;
 }
 
 .slet__list-desktop{
@@ -278,6 +290,7 @@ color: #000000;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
+    color: #5F4747;
 }
 
 
