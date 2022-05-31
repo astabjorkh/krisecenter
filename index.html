@@ -80,6 +80,10 @@
             konflikter og skabe balance igen.
             
             </p>
+            
+             <h3 class="voldtittle">Når volden 
+                bliver hverdag</h3>
+
         <img src="spiral 2.png" alt="">
         <p class="fortrydelse">Fortrydelsesfasen
             Fasen efter voldsudbruddet, hvor voldsudøveren ofte 
@@ -107,23 +111,81 @@
     </section>
 
    
-    <section >
+    <section class="collapsible">
+
+<section>
+    
+<button type="button" class="collapsible__liste">Hvad vi kan hjælpe med</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
 
-        <div class="pakke">
-        <p>Hvad kan vi hjælpe dig med?</p>
-        <p>Pakkeliste</p>
-        <p>Ressourcer</p>
-        <p>Egen omsorg</p>
-        <p>Sikkerhed</p>
-        <p>Kontaktperson</p>
-        <img class="tekst" src="tekst.png" alt="">
-    </div>
+<button type="button" class="collapsible__liste">Pakkeliste</button>
+<div class="content">
+  <p>Hvis du har mulighed for at pakke en taske, foreslår vi at du pakker:
+    Tøj til dig og dine eventuelle børn
+    Hyggelige ting og/eller ting der betyder meget for dig
+    Penge eller hævekort
+    Ekstra nøgler til dit hjem og evt. bilen
+    Legetøj til børnene
+    Medicin og recepter
+    Telefon og adressebog
+    Alle officielle papirer om dig selv og dine børn: vielsesattest, dåbsattester, 
+    pas, immigrationspapirer m.m.
+    Forskellige elektroniske devices, såsom din telefon og computer (det er en 
+    god idé at slukke dem, inden ankomst).</p>
+</div>
+<button type="button" class="collapsible__liste">Ressourcer</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible__liste">Egen omsorg</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible__liste">Sikkerhed</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible__liste">Kontaktperson</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+</section>
+        
+        <script>
+            var coll = document.getElementsByClassName("collapsible__liste");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+        <section class="collapsible__udtalelse">
+        <p>“Jeg fik god tid til at falde 
+            til ro, da jeg flyttede ind. Der 
+            er ikke noget pres lige fra 
+            starten … Man får god tid.”</p>
+            <p>Kvinde, 32 år</p>
+            <img src="dots.png" alt="">
+        </section>
+   
     </section>
 
     <section class="allbox">
 
-        <div class="box1">
+        <section class="box1">
             
             <p>Anerkend et voldeligt forhold
                 Misbrug kan ske i enhver familie, 
@@ -133,9 +195,9 @@
                 hengivenhed til hinanden. 
                 Lær mere om kendetegnene 
                 ved et usundt forhold.</p>
-        </div>
+        </section>
 
-        <div class="box2">
+        <section class="box2">
            
             <p>Oplever du vold i dit forhold
                 At forlade et voldeligt forhold 
@@ -145,9 +207,9 @@
                 til de mennesker, steder og 
                 ressourcer, der kan hjælpe, hvis 
                 du er udsat for vold.</p>
-        </div>
+        </section>
 
-        <div class="box3">
+        <section class="box3">
             
             <p> Støtte, råd og vejledning
                 Vi kan tilbyde dig støtte, råd og 
@@ -158,14 +220,18 @@
                 taler ind i din livssituation, og 
                 ud fra dette yder råd og 
                 vejledning.</p>
-        </div>
+        </section>
     </section>
 
 
     
         <img class="succe" src="succehistori.png" alt="">
+
+
+
   
 
+        <a href="#"></a>
 
 </body>
 </html>

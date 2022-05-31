@@ -36,6 +36,19 @@ h2{
     color: #9C7676;
 
 }
+
+.urgent{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.urgent a{
+    background-color: #C08889;
+    width: 7em;
+    height: 2em;
+    color: white;
+    font-family: Heiti SC;
+}
 main{
 
     display: grid;
@@ -172,18 +185,28 @@ main p{
         grid-template-columns: 1fr 1fr 1fr;
         grid-row:1fr 1fr 1fr;
         background-color: #B99B9D;
+        height: 35em;
+    }
+    .voldtittle{
+        color: white;
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
+        font-family: Heiti SC;
+        font-size: 25px;
+        margin-left: 5em;
     }
 
     .spiral2 img{
-        width:20em;
-        height: 20em;
+        width: 15em;
+        height: 15em;
         grid-column: 2;
         grid-row: 2;
-        margin-left:2em;
+        margin-left:7em;
     }
 
     .spiral2 p{
-        font-size: 15px;
+        font-size: 12px;
         color: #BA9B9D;
         background-color: white;
         text-decoration: none;
@@ -214,31 +237,92 @@ main p{
         grid-row: 3;
         grid-column: 1;
         margin-bottom: 5em;
+
+
     }
 
+    .collapsible{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-.pakke{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5em;
+    }
+
+    .collapsible__liste {
+        background-color: #AF7D7E;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 35em;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        height: 5em;
+        margin-top: 1em;
+       
+        
+        font-family: Heiti SC;
+      }
+      
+      .active, .collapsible__liste:hover {
+        background-color: #896B6B;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+
+      .content p{
+          text-decoration: none;
+          border-style: none;
+          font-size: 15px;
+          font-family: Heiti SC;
+          
+      }
+      
+
+.collapsible__udtalelse{
+    margin-top: 5em;
 }
-   .pakke p{
-    font-size: 15px;
-    height: 2em;
-    text-align: center;
 
-   }
 
-   .pakke img{
-    grid-column: 2;
-    grid-row: 1;
-   }
+  
 
+.collapsible__udtalelse{
+    padding-top: 10em;
+    margin: 0%;
+
+}
+
+.collapsible__udtalelse p{
+    border-style: none;
+    font-size: 20px;
+    text-decoration: none;  
+    font-family: Heiti SC;
+    text-align: start;
+    padding-right: 5em;
+}
+
+.collapsible__udtalelse img{
+   width: 10em;
+   height: 1.5em;
+   align-self: center;
+   padding-left: 10em;
+  
+}
    .box1{
        display: flex;
        flex-direction: column;
+       
    }
 
+   .allbox{
+       padding-top: 15em;
+      
+   }
    
 
    .box1 p{
@@ -248,7 +332,7 @@ main p{
        text-align: center;
        background-color: #896B6B;
        color: white;
-       height: 10em;
+       height: 15em;
        width: 20em;
        text-align: center;
        padding-top: 5em;
@@ -261,8 +345,8 @@ main p{
     text-align: center;
     background-color: #896B6B;
     color: white;
-    height: 10em;
-    width: 20em;
+    height: 15em;
+       width: 20em;
     text-align: center;
     padding-top: 5em;
 }
@@ -274,8 +358,8 @@ main p{
     text-align: center;
     background-color: #896B6B;
     color: white;
-    height: 10em;
-    width: 20em;
+    height: 15em;
+       width: 20em;
     text-align: center;
     padding-top: 5em;
 }
@@ -291,3 +375,5 @@ main p{
     padding-top: 6em;
     height: 30em;
 }
+
+
