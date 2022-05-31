@@ -9,6 +9,10 @@ body{
   font-family: Sans-serif;
 }
 
+a:visited {
+    color: #000000;
+  }
+
 .menu{
     font-weight: 300;
     font-size: 18px;
@@ -99,7 +103,14 @@ color: #000000;
          padding: 8px;
  }
 
-
+.btn__back{
+    color: #ffffff;
+    background-color: #5F4747;
+    padding: 10px;
+    margin: 10px;
+    border:#5F4747;
+    
+}
 
 .info {
     box-sizing: border-box;
@@ -108,6 +119,7 @@ color: #000000;
     padding: 60px;
     margin: 10px auto;
     max-width: 900px;
+    margin-top: 45px;
   }
 
   header {
@@ -200,10 +212,6 @@ color: #000000;
     text-align: center;
 }
 
-.font__one, .font__two, .font__three, .font__four, .font__five {
-    overflow-wrap: break-word;
-}
-
 .vold__list{
     font-weight: 600;
     font-size: 18px;
@@ -222,6 +230,11 @@ color: #000000;
 .vold__list li {
     padding: 0 2em;
 }
+
+.vold__list .vold__list:link {
+color: #000000;
+}
+
 .vold__list-header{
     text-align: center;
     font-weight: 300;
@@ -232,7 +245,7 @@ color: #000000;
     color: #5F4747;
     text-align: center;
 }
-.vold__text{
+.vold__slide{
     font-size: 18px;
     text-align: center;
     font-weight: 100;
@@ -260,6 +273,7 @@ color: #000000;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
+    color: #5F4747;
 }
 
 .slet__list-desktop{
@@ -276,4 +290,39 @@ color: #000000;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
+    color: #5F4747;
 }
+
+
+/* showing/hiding vold texts */
+.vold__slide {
+    display: none;
+}
+.vold__slide.active {
+    display:block;
+}
+.vold__link.active {color:green}
+
+
+/*to top button in side - source
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #B99B9D; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 0px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #896B6B; /* Add a dark-color background on hover */
+  }
