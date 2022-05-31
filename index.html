@@ -159,22 +159,7 @@
 
 </section>
         
-        <script>
-            const coll = document.getElementsByClassName("collapsible__liste");
-            let i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                let content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-            </script>
+        
 
         <section class="collapsible__udtalelse">
         <p>“Jeg fik god tid til at falde 
@@ -269,14 +254,17 @@
         <p>Frivillig </p>
         <p>Frivillig politik</p>
         <p>Bliv Frivillig</p>
+        
+        <div class="linje"></div>
 
     </section>
 
+   
         <footer>
 
             
             <p>Aabenraa Krisecenter </p>
-<p>Krisecenteret er et tilbud til kvinder med og uden 
+            <p>Krisecenteret er et tilbud til kvinder med og uden 
                     børn, der er udsat for vold eller trusler om vold. 
                     Vi tilbyder ophold på krisecenteret, men 
                     også rådgivning, støtte og anden hjælp. 
@@ -292,6 +280,22 @@
 
                 </footer>
   
+                <script>
+                    const coll = document.getElementsByClassName("collapsible__liste");
+                    let i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        let content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                    </script>
 
         <a href="#"></a>
 
