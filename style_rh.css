@@ -13,6 +13,7 @@ a:visited {
     color: #000000;
   }
 
+/*menu bar on top in header */  
 .menu{
     font-weight: 300;
     font-size: 18px;
@@ -165,6 +166,7 @@ color: #000000;
     display: block;
 }
 
+/*h1*/
 .font__one{
     font-weight: 300;
     font-size: 35px;
@@ -174,7 +176,7 @@ color: #000000;
     color: #5F4747;
     text-align: center;
 }
-
+/*h2 */
 .font__two{
     font-weight: 200;
     font-size: 14px;
@@ -184,7 +186,7 @@ color: #000000;
     color: #5F4747;
     
 }
-
+/*h3*/
 .font__three{
     font-weight: 200;
     font-size: 18px;
@@ -194,6 +196,7 @@ color: #000000;
     color: #5F4747;
 }
 
+/* paragraph*/
 .font__four{
     font-weight: 100;
     font-size: 14px;
@@ -202,18 +205,18 @@ color: #000000;
     text-transform: none;
     color: #5F4747;
 }
-
+/* h4*/
 .font__five{
     font-weight: 100;
     font-size: 25px;
     line-height: 1.7em;
-    /*line-height: 2.25rem;*/
     letter-spacing: normal;
     text-transform: uppercase;
     color: #5F4747;
     text-align: center;
 }
 
+/*list of various violence types */
 .vold__list{
     font-weight: 600;
     font-size: 18px;
@@ -237,6 +240,7 @@ color: #000000;
 color: #000000;
 }
 
+/*header for violence */
 .vold__list-header{
     text-align: center;
     font-weight: 300;
@@ -247,6 +251,7 @@ color: #000000;
     color: #5F4747;
     text-align: center;
 }
+/* text that slides of various violence types when button/text is pressed */
 .vold__slide{
     font-size: 18px;
     text-align: center;
@@ -260,7 +265,7 @@ color: #000000;
     text-transform: none;
     color: #5F4747;
 }
-
+/* List of mobile variants to deltete historie */
 .slet__list-mobile{
     font-weight: 600;
     font-size: 16px;
@@ -278,6 +283,7 @@ color: #000000;
     color: #5F4747;
 }
 
+/* List of desktop variants to deltete historie */
 .slet__list-desktop{
     font-weight: 600;
     font-size: 16px;
@@ -303,7 +309,7 @@ color: #000000;
 .vold__slide.active {
     display:block;
 }
-.vold__link.active {color:green}
+.vold__link.active {color:green} /*when link is active*/
 
 
 /*to top button in side - source
