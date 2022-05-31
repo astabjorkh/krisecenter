@@ -233,7 +233,7 @@ color: #000000;
     color: #5F4747;
     text-align: center;
 }
-.vold__text{
+.vold__slide{
     font-size: 18px;
     text-align: center;
     font-weight: 100;
@@ -278,3 +278,13 @@ color: #000000;
     margin: 0 auto;
     padding: 0;
 }
+
+
+/* showing/hiding vold texts */
+.vold__slide {
+    display: none;
+}
+.vold__slide.active {
+    display:block;
+}
+.vold__link.active {color:green}
