@@ -1,6 +1,7 @@
 body{
     padding: 0%;
     margin: 0%;
+    font-family: Heiti SC;
 }
 
 header{
@@ -192,7 +193,7 @@ main p{
         grid-template-columns: 1fr 1fr 1fr;
         grid-row:1fr 1fr 1fr;
         background-color: #B99B9D;
-        height: 35em;
+        height: 40em;
     }
     .voldtittle{
         color: white;
@@ -205,8 +206,8 @@ main p{
     }
 
     .spiral2 img{
-        width: 12em;
-        height: 12em;
+        width: 15em;
+        height: 15em;
         grid-column: 2;
         grid-row: 2;
         margin-left:7em;
@@ -221,12 +222,16 @@ main p{
     }
 
     .gentagelsen{
+        
+        box-shadow: 10px 10px 5px #896B6B ;
         grid-column: 1;
         grid-row: 1;
         margin-top: 2em;
+        font-family: Heiti SC;
     }
 
     .spænding{
+        box-shadow: 10px 10px 5px #896B6B ;
         grid-column: 3;
         grid-row: 1;
         margin-top: 2em;
@@ -234,6 +239,7 @@ main p{
     }
 
     .voldsudbrud{
+        box-shadow: 10px 10px 5px #896B6B ;
         grid-row: 3;
         grid-column: 3;
         margin-right: 5em;
@@ -241,6 +247,7 @@ main p{
     }
 
     .fortrydelse{
+        box-shadow: 10px 10px 5px #896B6B ;
         grid-row: 3;
         grid-column: 1;
         
@@ -442,4 +449,40 @@ main p{
 .succehistorie__btekst p{
     font-size:20px;
     font-family: Heiti SC;
+}
+
+.topFooter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CDA9AB;
+
+}
+
+.topFooter p{
+    border-style: none;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: #CDA9AB;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-bottom:2em ;
+}
+
+.footer p{
+    color: white;
+    border-style: none;
+    text-decoration: none;
+}
+
+footer p{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    text-align: start;
+    margin-right: 2em;
+    margin-top: 1em;
+
 }
