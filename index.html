@@ -16,25 +16,27 @@
         <p >Børn på krisecenteret</p>
         <p >Andet</p>
     </header>
-    <section class="urgent">
-        <a class="urgent__btn --leave" aria-label="Leave website" href="https://dr.dk">
-           Forlad siden
-        </a>
-       
-           <a class="urgent__btn --call" itemprop="telephone" aria-label="Call us" href="tel:+4574622117">
-           Ring til os
-        </a>
-
-           <a class="urgent__btn --clear" link rel="clear historie" href="ryd_historik.html">
-            Ryd historik
-        </a>
-    </section>
+    
     
         <h2 class="titel" >ER DU BLIVET OPSLUGT I VOLDSSPIRALENS TRAGT?</h2>
 
     
 
     <main>
+            
+        <section class="urgent">
+            <a class="urgent__btn --leave" aria-label="Leave website" href="https://dr.dk">
+               Forlad siden
+            </a>
+           
+               <a class="urgent__btn --call" itemprop="telephone" aria-label="Call us" href="tel:+4574622117">
+               Ring til os
+            </a>
+    
+               <a class="urgent__btn --clear" link rel="clear historie" href="ryd_historik.html">
+                Ryd historik
+            </a>
+        </section>
 
         <img class="spiral1" src="spiral.png" alt="">
         <p class="p1" >Forholdet starter</p>
@@ -49,6 +51,7 @@
         <p class="p10">Tab af selvtillid og selvværd</p>
         <p class="p11">isolation</p>
         <p class="p12">Tab af netværk</p>
+
 
         <h3 class="voldspiral">Voldsspiralen viser, hvordan psykisk vold påvirker den voldsudsatte over tid, og 
             hvordan volden kan blive normaliseret og bagatelliseret, da den langsomt bliver 
@@ -81,7 +84,7 @@
             konflikter og skabe balance igen.
             
             </p>
-            
+
              <h3 class="voldtittle">Når volden 
                 bliver hverdag</h3>
 
@@ -157,13 +160,13 @@
 </section>
         
         <script>
-            var coll = document.getElementsByClassName("collapsible__liste");
-            var i;
+            const coll = document.getElementsByClassName("collapsible__liste");
+            let i;
             
             for (i = 0; i < coll.length; i++) {
               coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");
-                var content = this.nextElementSibling;
+                let content = this.nextElementSibling;
                 if (content.style.display === "block") {
                   content.style.display = "none";
                 } else {
@@ -225,8 +228,36 @@
     </section>
 
 
+    <article class="succehistorie">
+        <h2>LIVET EFTER VOLDEN - METTE HELENA RASMUSSEN</h2>
+
+        <section class="succehistorie__mette ">
+            <img class="" src="succe historie.png" alt="">
+            <p>Mette Helena Rasmussen er indretningsekspert, meddommer i TV2-programmet Nybyggerne og vært i DR’s Nyt hjem uden vold. Mette Helena Rasmussen er mor til to. Hun boede på Danner i 16 måneder.
+                </p>
+        </section>
+
+        <h3>Læs hendes historie om hvordan hun kæmpede sig tilbage efter psykisk vold og tog magten tilbage over eget liv</h3>
+
+        <section class="succehistorie__btekst" >
+            <p>
+
+
+                Den dag jeg flyttede ind på Danner, gik jeg med meget tunge skridt op ad Nansensgade, inden jeg bankede på den store dør. Jeg var meget ked af det og flov og håbede, at ingen ville finde ud af, at jeg skulle flytte på krisecenter. Men jeg var virkelig kriseramt, og havde svært ved at tænke. Min hjerne føltes som grød.
+                
+                Jeg var nedbrudt og deprimeret, jeg havde kærestesorg, for jeg forlod et forhold, som jeg rigtig gerne ville have haft til at fungere. Jeg havde et lille barn på 14 måneder med mig i barnevognen og min datter på seks år i hånden. Men jeg blev mødt med en stor hjertevarme og forståelse hos Danner. Det var utrolig vigtigt for mig at få sat ord på, hvad det var, jeg havde levet i, og det hjalp de mig til. 
+                
+                Jeg fik vendt min skam til en stolthed over, at jeg havde haft ressourcerne til at passe på mig selv og mine børn og til at vælge et andet liv til.
+                </p>
+        </section>
+
+        <section class="succehistorie__udtalelse " >
+            <p>Jeg fik vendt min skam til en stolhed over, at jeg havde ressourcerne til at passe på mig selv og mine børn og til at vælge et andet liv til. </p>
+        </section>
+
+    </article>
     
-        <img class="succe" src="succehistori.png" alt="">
+       
 
 
 
