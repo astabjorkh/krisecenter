@@ -108,6 +108,7 @@ color: #000000;
     padding: 60px;
     margin: 10px auto;
     max-width: 900px;
+    margin-top: 45px;
   }
 
   header {
@@ -288,3 +289,20 @@ color: #000000;
     display:block;
 }
 .vold__link.active {color:green}
+
+
+/*to top button in side */
+
+.scroll-top {
+    right: 25px;
+    position: fixed;
+    bottom: 25px;
+    z-index: 99;
+    outline: none;
+    background-color: #efefef;
+    border: 1px solid #333;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+  }

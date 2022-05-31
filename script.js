@@ -27,3 +27,16 @@ function showHideArticles(id){
         }
     });
 }
+
+
+
+
+
+//to top button//
+const scroll = document.querySelector(".scroll-top");
+
+scroll.addEventListener("click", scrollToTop);
+
+function scrollToTop() {
+  window.scroll({ top: 0, left: 0, behavior: "smooth" });
+}
