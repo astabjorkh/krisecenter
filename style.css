@@ -3,7 +3,7 @@ body {
   margin: 0%;
 }
 
-
+/* det er den css jeg har på knappene i siden*/
 .urgent {
   position: fixed;
   left: 0;
@@ -50,7 +50,7 @@ color: #000000;
        padding: 8px;
 }
 
-
+/* det er den css jeg har på knappene i siden*/
 header {
   background-color: #CDA9AB;
   display: -ms-grid;
