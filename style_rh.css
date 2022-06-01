@@ -28,35 +28,12 @@ a:visited {
     text-align: center;
     padding: 0px;
 }
-/*
-.header{
 
-}
 
-.menu__btn{
 
-}
 
-.--hvadervold{
 
-}
 
-.--udsatforvold{
-
-}
-
-.--brugforhjaelp{
-
-}
-
-.--boern{
-
-}
-
-.--andet{
-
-}
-*/
 
 /* knapper til siden som - i wrapper*/
 .urgent {
@@ -390,6 +367,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
          padding: 8px;
   }
   
+<<<<<<< HEAD
 
 
   /*skil*/
@@ -399,90 +377,34 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     margin: 0%;
     font-family: Heiti SC;
 }
+=======
+>>>>>>> c4a6c914ce9ca45812fa59b6691f2fcd77bcb375
 
-header{
-    background-color: #CDA9AB;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 2em;
-}
 
-header img{
-    width: 80px;
-    height: 70px;
-   
-    margin-left: 1em;
-    margin-right: 10em;
 
-}
 
-header p{
-    color: white;
-    margin-top: 4em;
-    font-size: 12px;
-    text-decoration: underline;
-}
 
-h2{
-    
-    font-size: 20px;
-    text-align: center;
-    color: #9C7676;
 
-}
 
-.urgent {
-    position: fixed;
-    left: 0;
-    z-index: 1;
-    background: #896B6B;
-    width: 84px;
-    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-  }
-  section {
-    display: block;
-  }
-  .urgent__btn {
-      box-sizing: border-box;
-      font-size: 20px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      color: #ffffff;
-}
-.urgent__btn:link {
-color: #000000;
-}
 
-    
-      .--leave{
-          background-color: #896B6B;
-          width: 84px;
-          box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-          padding: 8px;
-      }
-    
-      .--call{
-          background-color: #C08889;
-          width: 84px;
-          box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-          padding: 8px;
-    
-      }
-    
-     .--clear{
-             background-color: #5F4747;
-             width: 84px;
-             box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
-             padding: 8px;
-     }
+
+
+
+
+
+
+
 main{
 
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     
+=======
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 2fr;
+
+>>>>>>> c4a6c914ce9ca45812fa59b6691f2fcd77bcb375
     padding: 0%;
     margin:0%;
 }
