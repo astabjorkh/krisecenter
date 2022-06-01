@@ -6,13 +6,18 @@ body{
 
 header{
     background-color: #CDA9AB;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    
-    
     padding-right: 2em;
+
 }
+
+header button{
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+
 
 .navn{
     color: white;
@@ -28,25 +33,10 @@ header{
     grid-column: 1;
     grid-row: 1;
     margin-left: 4em;
-}
-.Hvadervold{
-    grid-column: 2;
-  
-}
-
-.udsat{
-    grid-column: 3;
     
 }
 
-.Brugforhjalp{
-    grid-column: 4;
-   
-}
-.born{
-    grid-column: 5;
-    
-}
+
 header img{
     width: 80px;
     height: 70px;
@@ -591,8 +581,6 @@ footer p{
     align-self: center;
 }
 
-/* style for drop down menu bar */
-
 .dropbtn {
     background-color: #B99B9D;
     color: white;
@@ -600,11 +588,6 @@ footer p{
     font-size: 16px;
     border: none;
   }
-  
-  /*.dropdown {
-    position: relative;
-    display: inline-block;
-  }*/
   
   .dropdown-content {
     display: none;
