@@ -371,7 +371,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   
 
 
-/* style for drop down menu bar */
+/* style for drop down menu bar 
 
   .dropbtn {
     background-color: #B99B9D;
@@ -380,11 +380,6 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     font-size: 16px;
     border: none;
   }
-  
-  /*.dropdown {
-    position: relative;
-    display: inline-block;
-  }*/
   
   .dropdown-content {
     display: none;
@@ -407,3 +402,4 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   .dropdown__btn:hover .dropdown-content {display: block;}
   
   .dropbtn:hover .dropbtn {background-color: #5F4747;}
+  */
