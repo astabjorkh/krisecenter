@@ -390,6 +390,8 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
          padding: 8px;
   }
   
+
+
   /*skil*/
   
   body{
@@ -479,8 +481,8 @@ color: #000000;
 main{
 
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
     padding: 0%;
     margin:0%;
 }
@@ -512,6 +514,9 @@ main p{
         padding-right: 5em;
        
     }
+
+
+    
 
     .spiral1{
         width: 40em;
@@ -630,6 +635,7 @@ main p{
         background-color: #B99B9D;
         height: 40em;
     }
+    
     .voldtittle{
         color: white;
         grid-column: 2;
