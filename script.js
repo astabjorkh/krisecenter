@@ -1,6 +1,5 @@
-console.log("script loaded");
-const voldLinks = document.querySelectorAll(".vold__link");
-const voldSlides = document.querySelectorAll(".vold__slide");
+let coll = document.getElementsByClassName("collapsible");
+let i;
 
 function resetAllLinksActive() {
   // removes the class "active" from all links, here it performes the action

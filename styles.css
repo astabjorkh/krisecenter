@@ -6,13 +6,18 @@ body{
 
 header{
     background-color: #CDA9AB;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    
-    
     padding-right: 2em;
+
 }
+
+header button{
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+
 
 .navn{
     color: white;
@@ -28,25 +33,10 @@ header{
     grid-column: 1;
     grid-row: 1;
     margin-left: 4em;
-}
-.Hvadervold{
-    grid-column: 2;
-  
-}
-
-.udsat{
-    grid-column: 3;
     
 }
 
-.Brugforhjalp{
-    grid-column: 4;
-   
-}
-.born{
-    grid-column: 5;
-    
-}
+
 header img{
     width: 80px;
     height: 70px;
@@ -280,7 +270,7 @@ main p{
         grid-template-columns: 1fr 1fr 1fr;
         grid-row:1fr 1fr 1fr;
         background-color: #B99B9D;
-        height: 40em;
+        height: 50em;
     }
     .voldtittle{
         color: white;
@@ -293,15 +283,15 @@ main p{
     }
 
     .spiral2 img{
-        width: 15em;
-        height: 15em;
+        width: 20em;
+        height: 20em;
         grid-column: 2;
         grid-row: 2;
-        margin-left:7em;
+        margin-left:4em;
     }
 
     .spiral2 p{
-        font-size: 12px;
+        font-size: 15px;
         color: #BA9B9D;
         background-color: white;
         text-decoration: none;
@@ -348,6 +338,7 @@ main p{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left:10em;
+        margin-top: 5em;
 
     }
 
@@ -544,6 +535,7 @@ main p{
 .succehistorie__btekst p{
     font-size:20px;
     font-family: Heiti SC;
+    margin-left: 5em;
 }
 
 .topFooter{
@@ -591,8 +583,6 @@ footer p{
     align-self: center;
 }
 
-/* style for drop down menu bar */
-
 .dropbtn {
     background-color: #B99B9D;
     color: white;
@@ -600,11 +590,6 @@ footer p{
     font-size: 16px;
     border: none;
   }
-  
-  /*.dropdown {
-    position: relative;
-    display: inline-block;
-  }*/
   
   .dropdown-content {
     display: none;
