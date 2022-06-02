@@ -1,5 +1,6 @@
-let coll = document.getElementsByClassName("collapsible");
-let i;
+console.log("script loaded");
+const voldLinks = document.querySelectorAll(".vold__link"); // all buttons for the vold slides
+const voldSlides = document.querySelectorAll(".vold__slide"); // all the vold slides
 
 function resetAllLinksActive() {
   // removes the class "active" from all links, here it performes the action
@@ -61,3 +62,7 @@ function topFunction() {
 }
 
 
+
+/*let coll = document.getElementsByClassName("collapsible");
+let i;
+*/
