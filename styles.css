@@ -263,6 +263,8 @@ main p{
         width: 22em;
         
     }
+    
+    
 
     .spiral2{
 
@@ -536,6 +538,13 @@ main p{
     font-size:20px;
     font-family: Heiti SC;
     margin-left: 5em;
+}
+
+.video{
+    width: 50em;
+    margin-left: 20em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
 .topFooter{
